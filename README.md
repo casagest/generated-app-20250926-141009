@@ -1,0 +1,2 @@
+# generated-app-20250926-141009
+AURA MEDICALCOR CRM
