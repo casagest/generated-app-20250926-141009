@@ -1,0 +1,30 @@
+{
+	"files": [],
+	"references": [
+		{
+			"path": "./tsconfig.app.json"
+		},
+		{
+			"path": "./tsconfig.node.json"
+		},
+		{
+			"path": "./tsconfig.worker.json"
+		}
+	],
+	"compilerOptions": {
+		"incremental": true,
+		"types": [
+			"@cloudflare/workers-types"
+		],
+		"baseUrl": ".",
+		"paths": {
+			"@/*": [
+				"./apps/web-admin/src/*"
+			],
+            "@shared/*": [
+                "./packages/shared/src/*"
+            ]
+		},
+        "skipLibCheck": true
+	}
+}
